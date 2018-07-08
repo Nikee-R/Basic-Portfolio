@@ -212,6 +212,11 @@ p {
     min-height: calc(100vh - 70px);
 }
 
+#main-container a {
+    text-decoration: none;
+    color: black;
+}
+
 .main-section {
     float: left;
     width: 100%;
