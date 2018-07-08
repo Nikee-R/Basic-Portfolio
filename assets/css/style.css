@@ -110,7 +110,6 @@ p {
     display: inline-block;
     color: rgb(114, 114, 114);
     font-family: 'Alegreya Sans SC', sans-serif;
-    ;
     padding-left: 15px;
     margin-left: 15px;
     line-height: 18px;
@@ -131,14 +130,77 @@ div.gallery {
     position: relative;
     float: left;
     margin: 20px 0 25px;
-    width: 274px;
+    width: 400px;
     overflow: auto;
 } 
+
+.gallery:nth-child(even) {
+    margin-right: 50px;
+}
 
 div.gallery img {
     width: 100%;
     border: 0 none;
-    opacity: 0.8;
+    display: block;
+}
+
+.gallery #deployed {
+    display: inline-block;
+    font-size: 20px;
+    color: rgb(226, 226, 226);
+    font-family: 'Alegreya Sans SC', sans-serif;
+    text-align: center;
+    text-decoration: none;
+    top: 50%;
+    left: 25%;
+    position: absolute;
+    transform: translate (-50%, -50%);
+    -ms-transform: translate(-50%, -50%);  
+}
+
+.gallery #git {
+    position: absolute;
+    display: inline-block;
+    font-size: 20px;
+    color: rgb(226, 226, 226);
+    font-family: 'Alegreya Sans SC', sans-serif;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    text-decoration: none;
+    transform: translate (-50%, -50%);
+    -ms-transform: translate(-50%, -50%);  
+}
+/*
+.gallery:hover a {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 0;
+}
+*/
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 89%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgb(173, 173, 173);
+}
+
+.gallery:hover .overlay {
+    opacity: 1;
+}
+
+.gallery h3 {
+    display: inline-block;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Alegreya Sans SC', sans-serif;
+
 }
 
 /* Rest of Body */
