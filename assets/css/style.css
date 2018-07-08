@@ -1,0 +1,153 @@
+/* This controls the body */
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    margin: 0 auto;
+    line-height: 34px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+.wrapper {
+    height: auto !important;
+    height: 100%;
+    min-height: 100%;
+    margin: 0 auto -105px;
+}
+
+
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    clear: both;
+}
+
+h1, h2, p {
+    margin-bottom: 20px;
+}
+
+p:last-child {
+    margin-bottom: 0;
+}
+
+
+
+h1, h2 {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-weight: 700;
+    color: rgb(194, 195, 196);
+}
+
+h1 {
+    padding-bottom: 20px;
+    font-size: 30px;
+    line-height: 49px;
+    border-bottom: 3px solid rgb(255, 0, 106);
+}
+
+h2 {
+    font-size: 22px;
+    border: rgb(184, 184, 184);
+}
+
+p {
+    color: grey;
+    font-size: 16px;
+    line-height: 48px;
+    margin-top: 60px;
+    padding: 10px 20px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+
+}
+
+/* Header Details */
+
+#masthead {
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    margin: 0 0 30px;
+    overflow: auto;
+    color: rgb(255, 0, 106);
+    background-color: rgb(255, 255, 255);
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+#logo {
+    float: left;
+    width: 250px;
+    height: 90px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 90px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-decoration: none;
+    background: rgb(255, 255, 255);
+}
+
+/* This controls the navigation bar. */
+nav {
+    float: right;
+    margin-top: 25px;
+}
+nav a {
+    display: inline-block;
+    color: rgb(114, 114, 114);
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    padding-left: 15px;
+    margin-left: 15px;
+    line-height: 18px;
+    text-decoration: none;
+    border-left: 1px solid rgb(3, 3, 3);
+}
+
+/* This is what happens on hover in the navigation. */
+nav a:hover {
+    color: rgb(184, 184, 184);
+}
+
+nav a:first-child {
+    border-left: 0 none;
+}
+
+div.gallery {
+    margin: 5px;
+    float: center;
+    width: 350px;
+} 
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+/* Footer */
+
+footer {
+    padding: 30px 0;
+    clear: both;
+    font-size: 12px;
+    color: red;
+    color: oranger;
+    text-align: center;
+    background: black;
+    border-top: 8px solid yellow;
+}
+
+.sidebar {
+    float: right;
+    width: 100%;
+    max-width: 270px;
+    padding: 30px;
+    margin-bottom: purple;
+    border: 1px solid yellow;
+}
